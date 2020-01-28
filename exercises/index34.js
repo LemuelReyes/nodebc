@@ -20,18 +20,14 @@
 
 // Objectives
 
-const income = 1000;
-const taxes = 500;
-const revenue = 600;
-
-const incomeGoal = income >= 800;
-const taxGoal = taxes < 400;
-const bonusGoal = revenue === 600
+const income = 1000 >= 800;
+const taxes = 500 < 400;
+const revenue = 600 === 600;
 
 const calculate = `
-    Income Objective:  ${incomeGoal};
-    Taxes Objective: ${taxGoal};
-    Bonus Objective: ${bonusGoal};
+    Income Objective:  ${income};
+    Taxes Objective: ${taxes};
+    Bonus Objective: ${revenue};
 `;
 
 console.log(calculate);
