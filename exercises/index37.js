@@ -9,5 +9,6 @@
 
 let average = 6;
 let studentAverage = 4;
+let pass = studentAverage <= average;
 
-console.log('This student has a greater or equal ')
+console.log('This student has a greater or equal: ', pass);
