@@ -12,4 +12,4 @@ const clientID = 143245;
 const inputClientID = '143245';
 
 console.log( inputClientID === clientID);
-console.log( inputClientID === typeof clientID);
+console.log( inputClientID == clientID);
