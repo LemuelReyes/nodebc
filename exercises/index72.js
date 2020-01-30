@@ -22,3 +22,9 @@ while (starCount <= 10){
     console.log("*".repeat(starCount));
     starCount++;
 }
+
+// let star ="";
+// while (star.length <= 13) {
+//     star += "*";
+//     console.log(star);
+// }
