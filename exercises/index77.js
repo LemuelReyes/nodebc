@@ -9,4 +9,4 @@ let number = 0;
 do {
     console.log(number)
     number++;
-} while (number < 11) 
+} while (number < 101) 
