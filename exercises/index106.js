@@ -13,21 +13,20 @@ const getUserID = function() {
     return 50;
 }
 
+const userID = getUserID();
+
 const isUserValid = function() {
-    getUserID()
-    if(getUserID > 30 ) {
+    if (userID >= 50) {
         return true;
-    } else{ 
-        return false;
-    }
-}
-
-let userValidation = function() {
-    if(isUserValid === true) {
-        return 'User is valid'
     } else {
-        return 'User is not valid'
+        return false;    
     }
 }
 
-console.log(userValidation)
+const userValidity = isUserValid();
+
+if(userValidity === true) {
+    console.log(`User is eligible for Senior discount`)
+} else {
+    console.log(`User is not eligible. Senior discounts apply for 50+`)
+}
