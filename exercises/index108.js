@@ -10,15 +10,6 @@
 // * Call the function again with the following parameters: 10, 8, 25, true
 
 
-// function sortNumber(a, b) {
-//     return a - b;
-//   }
-  
-//   const numArray = [25, 15, 20];
-//   numArray.sort(sortNumber);
-  
-//   console.log(numArray);
-
 const sortNumber = function(number1, number2, number3, highToLow) {
 
     const numArray = [number1, number2, number3]
