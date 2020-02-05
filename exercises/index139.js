@@ -10,6 +10,8 @@
 
 const createThousandArray = function() {
 
+    // To create an array from 1 - 1000
+    
     const numbers = []
 
     for (let i = 1; i <= 1000; i++) {
