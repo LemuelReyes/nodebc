@@ -1,0 +1,12 @@
+// # Exercise 143
+
+// * Create a new index143.js 
+// * Define a user variable and assign a literal object
+// * Show the user object as output
+// * Show the user type as output using typeof
+
+const user = {
+    name: 'Lemuel'
+}
+console.log(user)
+console.log(typeof user)
