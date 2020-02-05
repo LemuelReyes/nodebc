@@ -11,10 +11,10 @@
 // * Call the biggerNumber with the following parameters: 6 and 3
 // * Call the biggerNumber with the following parameters: 2 and 2
 
-const biggerNumber = function(firstNumber, secondNumber) {
-
-    const validation = function() {
-        if(typeof firstNumber === 'number' && typeof secondNumber === 'number') {
+const biggerNumber = function (numbers) {
+    const {firstNumber, secondNumber} = numbers;
+    const validation = function () {
+        if (typeof firstNumber === 'number' && typeof secondNumber === 'number') {
             return true;
         } else {
             console.log('Enter a valid number')
@@ -24,15 +24,16 @@ const biggerNumber = function(firstNumber, secondNumber) {
 
     const isValid = validation()
 
-    if(isValid && firstNumber > secondNumber) {
+    if (isValid && firstNumber > secondNumber) {
         console.log(`Number ${firstNumber} is bigger than ${secondNumber}`)
-    } else if (firstNumber < secondNumber){
+    } else if (firstNumber < secondNumber) {
         console.log(`Number ${firstNumber} is smaller than ${secondNumber}`)
-    } else if (firstNumber == secondNumber) {
+    } else if (firstNumber === secondNumber) {
         console.log(`Number ${firstNumber} is equal to ${secondNumber}`)
-    } 
+    }
 }
-
-biggerNumber(3, 2);
-
-
+const numbers = {
+    firstNumber: 3,
+    secondNumber: 3
+}
+biggerNumber(numbers);
