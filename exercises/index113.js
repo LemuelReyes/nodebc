@@ -11,9 +11,15 @@
 // * Call this function a couple of times with different values
 // * Test all posible cases
 
+// COME BACK TO THIS EXERCISE
 function getShapePerimiter(base, height) {
+
+    // CALCULATE SQUARE
     if(base === height) {
         console.log((base + height) * 2);
+    // CALCULATE RECTANGLE
+    } else if (base !== height) {
+        Console.log()
     }
 }
 
