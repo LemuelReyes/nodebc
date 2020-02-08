@@ -6,14 +6,27 @@
 // * Call this function using the following parameters: 2, 5, 3, 24, 12
 // * If the number is even show the following message: %number% is even
 // * Else show the following message: %number% is odd
-
+ 
+const array = [2, 5, 3, 24, 12]
 const even = function(number) {
 
-        if (number % 2 === 0 ) {
-            console.log(`${number} is even`)            
-        } else {
-            console.log(`${number} is odd`)
-        }
+    const array = number.map(function(number){
+                
+        // if (number % 2 === 0 ) {
+        //     console.log(`${number} is even`)            
+        // } else {
+        //     console.log(`${number} is odd`)
+        // }
+    })
+
+    // const array = number.forEach(function(number) {
+    //          if (number % 2 === 0 ) {
+    //         console.log(`${number} is even`)            
+    //     } else {
+    //         console.log(`${number} is odd`)
+    //     }
+    // });
+    return
 }
 
-even(2);
+even(array);
