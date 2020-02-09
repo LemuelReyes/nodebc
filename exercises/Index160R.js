@@ -23,5 +23,10 @@ const result = game.games.map(game => game);
 
 const keys = Object.keys(result[0])
 
+keys.forEach(function(game){
+    console.log(game)
+});
 console.log(result)
 console.log(keys)
+
+
