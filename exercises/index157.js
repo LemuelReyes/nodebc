@@ -34,6 +34,7 @@ const game = {
     ]
 }
 
+// FILTER BY CONSOLE
 const filterGames = game.games.filter((game) => game.system === console);
 
 console.log(filterGames)
